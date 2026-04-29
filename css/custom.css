@@ -1,0 +1,114 @@
+:root,
+[data-bs-theme=dark]{
+--bs-dark-rgb:0, 40, 80;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+h1{font-size: 2rem}
+
+/* 改抬頭顏色 */
+h2{font-size: 1.8rem;font-weight: 800;color: rgb(39,102,229) }
+
+/* 課製化改抬頭顏色 */
+.h2-custom-color{font-size: 3rem;font-weight: 800;color :#2c3e50;}
+
+body{font-family:"微軟正黑體", "Noto Sans TC", sans-serif;background-color:lightgray}
+
+.text-pink{color: rgb(255,0,195);}
+
+.iconsTitle{font-size: 2rem !important;color: blue;vertical-align: text-bottom;}
+
+.list-symbol{list-style-type: circle;}
+
+li{color: darkblue;}
+
+
+.ul li::marker {
+  content: "🍰 ";
+}
+
+.text-warning{color: orange;}
+
+.title{color:darkblue ;}
+
+.imgCut{
+  width: 100%;
+  height: 500px;
+  clip:rect(0px,0px,290px,0px);
+  object-fit: cover;
+ 
+}
+.card-text{
+  font-weight: 600;  /* 微粗 */
+}
+
+.my-navbar-gradient {
+  background: linear-gradient(to right, #002347, #004080);
+}
+
+.second-body {font-family: 'Playfair Display', serif;font-size: 18px;
+}
+
+.highlight {
+  color: #2766e5;
+  font-weight: 600;
+}
+
+.my-about-card {
+  background-color: #ebded0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Nunito:wght@400;600&display=swap');
+
+.second-body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    line-height: 1.6; /* 讓行距大一點，閱讀更舒服 */
+}
+
+/* 套用親切字體 */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Nunito:wght@400;600&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fdfaf5; /* 淡淡的米色，更有古鎮感 */
+}
+
+h2, h4 {
+    font-family: 'Quicksand', sans-serif;
+    color: #5d4037; /* 深木色 */
+}
+
+/* 改善卡片設計 */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+    transform: translateY(-10px); /* 滑過時輕微浮起 */
+}
+
+/* 修正按鈕顏色 - 更有質感的深磚紅 */
+.btn-info {
+    background-color: #b7410e; 
+    border-color: #b7410e;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #8b320b;
+    color: white;
+}
+
+
+
+
+
+  .giant-text { font-size: 5rem; font-weight: 900; line-height: 0.9; }
+  .italic-tagline { font-style: italic; font-family: serif; font-size: 1.5rem; }
+  .food-section { min-height: 80vh; padding: 80px 0; border: none; }
